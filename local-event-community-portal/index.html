@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Local Community Event Portal</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="../local-event-community-portal/styles.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container">
+    <a class="navbar-brand" href="#">Community Events</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
+        <li class="nav-item"><a class="nav-link" href="#register">Register</a></li>
+        <li class="nav-item"><a class="nav-link" href="#promoVideo">Promo Video</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="#help">Help</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header id="home" class="bg-light py-5 text-center">
+  <div class="container">
+    <h1 class="display-4">Welcome to <span class="highlight-text">Local Community Event Portal</span></h1>
+    <p class="lead text-secondary">Discover and join exciting local events near you!</p>
+  </div>
+</header>
+
+
+<section id="events" class="container py-5">
+  <h2 class="mb-4 text-primary border-bottom border-3 border-primary pb-2">
+    Upcoming Events
+  </h2>
+
+  <div id="eventsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="7000">
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <div class="row g-4">
+          <div class="col-md-4">
+  <div class="card h-100 d-flex flex-column shadow-sm">
+    <img src="assets/images/event1.jfif" class="card-img-top event-card-img" alt="Music Concert" />
+    <div class="card-body d-flex flex-column">
+      <h5 class="card-title">Music Concert</h5>
+      <p class="card-text">August 20, 2025 | City Hall</p>
+      <p class="gallery-caption mt-auto">Live bands and solo artists perform at City Hall.</p>
+    </div>
+  </div>
+</div>
+
+          <div class="col-md-4">
+            <div class="card shadow-sm">
+              <img src="assets/images/event2.jfif" class="card-img-top event-card-img" alt="Book Exhibition" />
+              <div class="card-body">
+                <h5 class="card-title">Book Exhibition</h5>
+                <p class="card-text">August 22, 2025 | Central Library</p>
+                <p class="gallery-caption">Browse rare collections and new releases from popular authors.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card shadow-sm">
+              <img src="assets/images/event3.jfif" class="card-img-top event-card-img" alt="Street Festival" />
+              <div class="card-body">
+                <h5 class="card-title">Street Festival</h5>
+                <p class="card-text">August 25, 2025 | Main Street</p>
+                <p class="gallery-caption">Enjoy food, dance, music, and art stalls along Main Street.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card shadow-sm">
+              <img src="assets/images/event4.jfif" class="card-img-top event-card-img" alt="Art Fair" />
+              <div class="card-body">
+                <h5 class="card-title">Art Fair</h5>
+                <p class="card-text">August 28, 2025 | Art District</p>
+                <p class="gallery-caption">Local artists display and sell paintings, crafts, and sculptures.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card shadow-sm">
+              <img src="assets/images/event5.jfif" class="card-img-top event-card-img" alt="Startup Showcase" />
+              <div class="card-body">
+                <h5 class="card-title">Startup Showcase</h5>
+                <p class="card-text">September 1, 2025 | Tech Hub</p>
+                <p class="gallery-caption">Innovators pitch business ideas to investors and the public.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card shadow-sm">
+              <img src="assets/images/event6.jfif" class="card-img-top event-card-img" alt="Science Expo" />
+              <div class="card-body">
+                <h5 class="card-title">Science Expo</h5>
+                <p class="card-text">September 5, 2025 | Science Center</p>
+                <p class="gallery-caption">Students and scientists exhibit exciting experiments and models.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card shadow-sm">
+              <img src="assets/images/event7.jfif" class="card-img-top event-card-img" alt="Food Carnival" />
+              <div class="card-body">
+                <h5 class="card-title">Food Carnival</h5>
+                <p class="card-text">September 10, 2025 | Food Street</p>
+                <p class="gallery-caption">Try dishes from around the world – all in one place!</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card shadow-sm">
+              <img src="assets/images/event8.jfif" class="card-img-top event-card-img" alt="Film Screening Night" />
+              <div class="card-body">
+                <h5 class="card-title">Film Screening Night</h5>
+                <p class="card-text">September 15, 2025 | Open Air Cinema</p>
+                <p class="gallery-caption">Outdoor cinema featuring award-winning short films.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card shadow-sm">
+              <img src="assets/images/event9.jfif" class="card-img-top event-card-img" alt="Dance Battle" />
+              <div class="card-body">
+                <h5 class="card-title">Dance Battle</h5>
+                <p class="card-text">September 18, 2025 | Community Hall</p>
+                <p class="gallery-caption">Groups compete in freestyle and hip-hop challenges.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card shadow-sm">
+              <img src="assets/images/event10.jfif" class="card-img-top event-card-img" alt="Chess Tournament" />
+              <div class="card-body">
+                <h5 class="card-title">Chess Tournament</h5>
+                <p class="card-text">September 22, 2025 | City Chess Club</p>
+                <p class="gallery-caption">Open to all skill levels. Prizes for top players.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card shadow-sm">
+              <img src="assets/images/event11.jfif" class="card-img-top event-card-img" alt="Photography Walk" />
+              <div class="card-body">
+                <h5 class="card-title">Photography Walk</h5>
+                <p class="card-text">September 26, 2025 | Riverside Trail</p>
+                <p class="gallery-caption">Explore scenic spots with photographers and get tips.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card shadow-sm">
+              <img src="assets/images/event12.jfif" class="card-img-top event-card-img" alt="Cultural Parade" />
+              <div class="card-body">
+                <h5 class="card-title">Cultural Parade</h5>
+                <p class="card-text">September 30, 2025 | City Square</p>
+                <p class="gallery-caption">A showcase of traditional costumes, music, and dance.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#eventsCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#eventsCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
+
+
+<section id="register" class="bg-white py-5">
+  <div class="container">
+    <h2 class="mb-4 text-primary border-bottom border-3 border-primary pb-2">Event Registration</h2>
+
+    <form id="registrationForm" class="row g-3 needs-validation" novalidate>
+      <div class="col-md-6">
+        <label for="fullName" class="form-label">Full Name <span class="text-danger">*</span></label>
+        <input type="text" class="form-control" id="fullName" required />
+        <div class="invalid-feedback">Please enter your full name.</div>
+      </div>
+
+      <div class="col-md-6">
+        <label for="email" class="form-label">Email <span class="text-danger">*</span></label>
+        <input type="email" class="form-control" id="email" required />
+        <div class="invalid-feedback">Please enter a valid email address.</div>
+      </div>
+
+      <div class="col-md-6">
+        <label for="phone" class="form-label">Phone Number</label>
+        <input type="tel" class="form-control" id="phone" placeholder="123-456-7890" pattern="^\d{3}[- ]?\d{3}[- ]?\d{4}$" />
+        <div class="invalid-feedback">Please enter a valid phone number (e.g., 123-456-7890).</div>
+      </div>
+
+      <div class="col-md-6">
+        <label for="eventType" class="form-label">Select Event</label>
+        <select id="eventType" class="form-select" onchange="showEventFee()">
+          <option value="" selected disabled>Select an event</option>
+          <option value="picnic">Community Picnic - Free</option>
+          <option value="festival">Street Festival - Rs.100</option>
+          <option value="concert">Music Concert - Rs.200</option>
+          <option value="art">Art Exhibition - Rs.100</option>
+        </select>
+      </div>
+
+      <div class="col-12">
+        <p id="eventFee" class="text-primary fw-bold"></p>
+      </div>
+
+      <div class="col-12">
+        <button class="btn btn-primary" type="submit">Register</button>
+      </div>
+
+      <div class="col-12" id="formMessage"></div>
+    </form>
+  </div>
+</section>
+
+<section>
+  <h2 class="mb-4 text-primary border-bottom border-3 border-primary pb-2" style="margin-left:110px;margin-right: 100px;">Event Promo Video</h2>
+  <div class="ratio ratio-16x9 w-75 mx-auto"> 
+    <iframe
+      src="https://www.youtube.com/embed/c0IkYVnDiv8?si=irUsxpE20L8dzP58"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen>
+    </iframe>
+  </div>
+</section>
+
+
+<section id="contact" class="bg-light py-5">
+  <div class="container text-center">
+    <h2 class="mb-4 text-primary border-bottom border-3 border-primary pb-2">Contact Us</h2>
+    <p>Phone: <a href="tel:+1234567890" class="text-decoration-none">+91 988598494</a></p>
+    <p>Email: <a href="mailto:contact@communityevents.org" class="text-decoration-none">contact@communityevents.org</a></p>
+  </div>
+</section>
+
+<section id="help" class="container py-5">
+  <h2 class="mb-4 text-primary border-bottom border-3 border-primary pb-2">Help & FAQ</h2>
+  <div>
+    <h5>How can I register for an event?</h5>
+    <p>Fill out the registration form above with your details and select the event you want to attend. Click Register to submit.</p>
+
+    <h5>Are the events free?</h5>
+    <p>Some events like the Community Picnic and Art Exhibition are free. Others have a small fee; it will be displayed when you select the event.</p>
+
+    <h5>Who can I contact for more information?</h5>
+    <p>Reach out via phone or email in the Contact Us section.</p>
+  </div>
+</section>
+
+<footer class="bg-primary text-white text-center py-3">
+  <small>&copy; 2025 Local Community Event Portal. All rights reserved.</small>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="../local-event-community-portal/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+
+    body {
+      background-color: #f0f8ff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .highlight-text {
+      color: #004080;
+      font-weight: bold;
+    }
+    .gallery-caption {
+      font-style: italic;
+      color: #004080;
+    }
+    #imageSlider {
+      max-width: 100%;
+      height: 400px;
+      position: relative;
+      overflow: hidden;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    #imageSlider img {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+      display: none;
+      transition: opacity 1s ease-in-out;
+    }
+    #imageSlider img.active {
+      display: block;
+      opacity: 1;
+    }
+    .slider-btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: rgba(0,0,0,0.4);
+      border: none;
+      color: white;
+      font-size: 2rem;
+      padding: 0 12px;
+      cursor: pointer;
+      border-radius: 50%;
+      user-select: none;
+      z-index: 10;
+    }
+    .slider-btn:hover {
+      background-color: rgba(0,0,0,0.7);
+    }
+    #prevBtn { left: 15px; }
+    #nextBtn { right: 15px; }
+    #sliderCaption {
+      position: absolute;
+      bottom: 15px;
+      left: 50%;
+      transform: translateX(-50%);
+      color: white;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-style: italic;
+      font-weight: 600;
+      max-width: 90%;
+      text-align: center;
+      user-select: none;
+    }
+
+    .event-card-img {
+  height: 220px; 
+  object-fit: cover;
+}
+
